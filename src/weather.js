@@ -2,7 +2,7 @@ const weather = document.querySelector('.js-weather'),
     temperature = weather.querySelector('.temperature'),
     city = weather.querySelector('.city');
 
-const API_KEY = ""; //your key for OpenWeather API
+const API_KEY = "e05208cdde991a600b8dfc1bd06fe09e"; // OpenWeather API
 const COORDS = 'coords';
 
 function getWeather(lat, lon){
